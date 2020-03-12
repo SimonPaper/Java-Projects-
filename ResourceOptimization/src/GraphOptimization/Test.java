@@ -3,7 +3,7 @@ package GraphOptimization;
 public class Test {
 
 	public static void main(String[] args) {
-		String path = "C:\\Users\\Simone\\Desktop\\adjacency.csv";
+		String path = "C:...\\adjacency.csv";
 		int[][] matrix = Util.getAdjacencyMatrixFromCSV(path, true);
 
 		Graph mstGraph = Util.getMSTFromAdjacencyMatrix(matrix, "Kruskal");
@@ -13,7 +13,7 @@ public class Test {
 		System.out.println(matrix[1][0] + " " +matrix[1][1] + " " +matrix[1][2] + " " +matrix[1][3] + " " );
 		System.out.println(matrix[2][0] + " " +matrix[2][1] + " " +matrix[2][2] + " " +matrix[2][3] + " " );
 		System.out.println(matrix[3][0] + " " +matrix[3][1] + " " +matrix[3][2] + " " +matrix[3][3] + " " );*/
-		Util.exportMatrixToCSV(mstMatrix, "C:\\Users\\Simone\\Desktop\\adjacencyExported.csv");
+		Util.exportMatrixToCSV(mstMatrix, "C:...\\adjacencyExported.csv");
 		
 
 	}
